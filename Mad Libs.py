@@ -1,0 +1,20 @@
+#Blake Dansie
+#B3
+#Fruit Problems
+adjective1 = input("Enter an adjective:")
+adjective2 = input("Enter another adjective:")
+noun1 = input("Enter a noun:")
+noun2 = input("Enter another noun:")
+place1 = input("Enter a place:")
+fruit1 = input("Enter the names of plural fruit:")
+verb1 = input("Enter a verb ending in -ed:")
+verb2 = input("Enter another verb that ends in -ed:")
+verb3 = input("Enter yet another verb ending in -ed:")
+name1 = input("Enter a name:")
+ambig_name = input("Enter an ambiguous name: ")
+print("Once upon a time in " + place1 + " there was a " + adjective1 + " princess named " + name1)
+print("This princess hated not having " + fruit1 + " for breakfast so she sent her servant to fetch it for her")
+print("The servant "+ ambig_name + " got in their " + noun1 + " and ran to the store")
+print("At the store the servant " + ambig_name + " " + verb1 + " to the " + noun2 + " aisle and " + verb2 + " the " + fruit1)
+print("The princess " + name1 + " was so relieved to have her " + fruit1 + " that she " + verb3 + " " + ambig_name)
+print("And they ate " + fruit1 +" for the rest of their lives")
